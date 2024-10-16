@@ -1,0 +1,92 @@
+.page-container {
+    font-family: Inter, "Noto Sans", sans-serif;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+    border: 3px solid #f1f1f1;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}
+
+
+.hide-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.hide-scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.hide-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scroll {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.page-item.active .page-link {
+    background-color: #131c24;
+    border-color: #ffff ;
+}
+
+.page-link {
+    color: #131c24 ;
+    margin: 0 2px;
+    border-radius: 4px;
+}
+
+.page-link:hover {
+    background-color: #e9ecef;
+}
+
+.pagination-total {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.modal-content-class{
+    z-index: 1000;
+}
+.uploaded-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.remove-image {
+    top: -20px;
+    padding: 2px;
+}
+
+
+
